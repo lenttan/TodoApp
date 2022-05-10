@@ -31,9 +31,10 @@ class CreateTodoFragment : Fragment() {
 
         viewModel= ViewModelProvider(this).get(DetailTodoViewModel::class.java)
 
+
         btnAddTodo.setOnClickListener {
             var radio = view.findViewById<RadioButton>(radioGroupPriority.checkedRadioButtonId)
-            var todo = Todo(editTitle.text.toString(), editNotes.text.toString(),radio.tag.toString().toInt())
+            var todo = Todo(editTitle.text.toString(), editNotes.text.toString(),radio.tag.toString().toInt(),0)
             var list = listOf(todo)
             viewModel.addTodo(list)
             Toast.makeText(view.context, "Data Added",Toast.LENGTH_SHORT).show()

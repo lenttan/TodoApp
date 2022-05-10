@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Android Studio/TodoApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Android Studio/TodoApp/app/src/main/res/layout/fragment_create_todo.xml" value="0.33" />
+        <entry key="..\:/Android Studio/TodoApp/app/src/main/res/layout/fragment_edit_todo.xml" value="0.20416666666666666" />
         <entry key="..\:/Android Studio/TodoApp/app/src/main/res/layout/fragment_todo_list.xml" value="0.20416666666666666" />
         <entry key="..\:/Android Studio/TodoApp/app/src/main/res/layout/layout_todo_item.xml" value="0.5" />
       </map>
